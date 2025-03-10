@@ -6,6 +6,7 @@ import Pricing from './components/sections/Pricing';
 import Resume from './components/sections/Resume';
 import Contact from './components/sections/Contact';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -40,15 +41,15 @@ export default function Home() {
               >
                 Hire Me
               </motion.a>
-              <motion.a
-                href="#resume"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-3 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full 
-                  hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-700"
-              >
-                View Resume
-              </motion.a>
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                <Link
+                  href="/resume"
+                  className="px-8 py-3 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full 
+                    hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-700 inline-block"
+                >
+                  View Resume
+                </Link>
+              </motion.div>
             </div>
           </motion.div>
 

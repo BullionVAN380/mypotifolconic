@@ -161,7 +161,7 @@ export default function Resume() {
           className="text-center mt-16"
         >
           <a
-            href="/resume.pdf"
+            href="/resu.pdf"
             className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-500 
               text-white rounded-full hover:opacity-90 transition-opacity transform hover:scale-105 
               duration-300 shadow-lg hover:shadow-purple-500/25"

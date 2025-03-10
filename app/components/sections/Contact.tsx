@@ -207,9 +207,9 @@ export default function Contact() {
             <div className="p-6 rounded-xl bg-gradient-to-br from-purple-600/10 via-blue-500/10 to-purple-600/10 dark:from-purple-600/20 dark:via-blue-500/20 dark:to-purple-600/20">
               <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Office Hours</h3>
               <div className="space-y-2 text-gray-600 dark:text-gray-300">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p>Saturday: By Appointment</p>
-                <p>Sunday: Closed</p>
+                <p>Monday - Friday: 6:00 AM - 6:00 PM</p>
+                <p>Saturday - 6:00 AM - 2:00 PM</p>
+                <p>Sunday - 6:00 AM - 2:00 PM</p>
               </div>
             </div>
           </motion.div>
